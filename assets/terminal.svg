@@ -1,48 +1,95 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 330" width="1200" height="330" role="img" aria-label="Terminal session: niranjan@github">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 330" width="1200" height="330" role="img" aria-label="niranjan@github — terminal with a live data plot">
   <defs>
-    <linearGradient id="glow" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#39D353" stop-opacity="0.10"/>
+    <linearGradient id="area" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#39D353" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#39D353" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="halo" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#39D353" stop-opacity="0.07"/>
       <stop offset="100%" stop-color="#39D353" stop-opacity="0"/>
     </linearGradient>
     <style>
       .m { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace; }
-      .p  { fill:#39D353; }
-      .b  { fill:#7EE787; }
-      .d  { fill:#6E7681; }
-      .w  { fill:#C9D1D9; }
+      .p { fill:#39D353 } .b { fill:#7EE787 } .d { fill:#6E7681 } .w { fill:#C9D1D9 }
     </style>
   </defs>
 
   <rect width="1200" height="330" rx="10" fill="#0A0E0F"/>
-  <rect width="1200" height="120" rx="10" fill="url(#glow)"/>
+  <rect width="1200" height="150" fill="url(#halo)"/>
 
-  <!-- title bar -->
   <rect x="0" y="0" width="1200" height="38" rx="10" fill="#11171A"/>
   <rect x="0" y="28" width="1200" height="10" fill="#11171A"/>
   <circle cx="26" cy="19" r="6" fill="#FF5F57"/>
   <circle cx="48" cy="19" r="6" fill="#FEBC2E"/>
   <circle cx="70" cy="19" r="6" fill="#28C840"/>
   <text x="600" y="24" class="m d" font-size="13" text-anchor="middle">niranjan@github — zsh — 96×24</text>
-  <line x1="0" y1="38" x2="1200" y2="38" stroke="#1F262B" stroke-width="1"/>
+  <line x1="0" y1="38" x2="1200" y2="38" stroke="#1F262B"/>
 
-  <!-- session -->
-  <text x="34" y="84" class="m" font-size="17">
+  <!-- ── left: the session, calm and static ── -->
+  <text x="34" y="82" class="m" font-size="16">
     <tspan class="p">niranjan@github</tspan><tspan class="d">:</tspan><tspan class="b">~</tspan><tspan class="d">$ </tspan><tspan class="w">whoami</tspan>
   </text>
-  <text x="34" y="112" class="m b" font-size="17">Niranjan S — full-stack engineering and data analysis</text>
+  <text x="34" y="107" class="m b" font-size="16">Niranjan S — full-stack engineering and data analysis</text>
 
-  <text x="34" y="156" class="m" font-size="17">
+  <text x="34" y="150" class="m" font-size="16">
     <tspan class="p">niranjan@github</tspan><tspan class="d">:</tspan><tspan class="b">~</tspan><tspan class="d">$ </tspan><tspan class="w">cat stack.txt</tspan>
   </text>
-  <text x="34" y="184" class="m d" font-size="16">typescript  python  sql  next.js  react  postgres  pandas  pytorch  opencv</text>
+  <text x="34" y="175" class="m d" font-size="15">typescript · python · sql · next.js · postgres · pandas · pytorch</text>
 
-  <text x="34" y="228" class="m" font-size="17">
-    <tspan class="p">niranjan@github</tspan><tspan class="d">:</tspan><tspan class="b">~</tspan><tspan class="d">$ </tspan><tspan class="w">ls projects/ | wc -l</tspan>
+  <text x="34" y="218" class="m" font-size="16">
+    <tspan class="p">niranjan@github</tspan><tspan class="d">:</tspan><tspan class="b">~</tspan><tspan class="d">$ </tspan><tspan class="w">plot --series throughput --window 30d</tspan>
   </text>
-  <text x="34" y="256" class="m b" font-size="17">6</text>
 
-  <text x="34" y="296" class="m" font-size="17">
-    <tspan class="p">niranjan@github</tspan><tspan class="d">:</tspan><tspan class="b">~</tspan><tspan class="d">$ </tspan>
-  </text>
-  <rect x="182" y="281" width="11" height="20" fill="#39D353"/>
+  <!-- ── the plot: draws itself slowly, then rests ── -->
+  <g transform="translate(34,238)">
+    <g stroke="#1F262B" stroke-width="1">
+      <line x1="0" y1="0"  x2="1130" y2="0"/>
+      <line x1="0" y1="30" x2="1130" y2="30"/>
+      <line x1="0" y1="60" x2="1130" y2="60"/>
+    </g>
+
+    <!-- area under the curve, fading up gently -->
+    <path d="M0 56 C 90 50, 170 58, 260 42 S 420 30, 520 38 S 690 16, 800 24 S 960 6, 1060 12 L1130 8 L1130 72 L0 72 Z"
+          fill="url(#area)" opacity="0">
+      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.30;0.55;0.90;1"
+               dur="16s" repeatCount="indefinite" calcMode="spline"
+               keySplines="0.4 0 0.6 1;0.4 0 0.6 1;0 0 1 1;0.4 0 0.6 1"/>
+    </path>
+
+    <!-- the line, drawn left to right over seven seconds -->
+    <path d="M0 56 C 90 50, 170 58, 260 42 S 420 30, 520 38 S 690 16, 800 24 S 960 6, 1060 12 L1130 8"
+          fill="none" stroke="#39D353" stroke-width="2" stroke-linecap="round"
+          pathLength="1" stroke-dasharray="1 1" stroke-dashoffset="1">
+      <animate attributeName="stroke-dashoffset" values="1;0;0;1" keyTimes="0;0.44;0.90;1"
+               dur="16s" repeatCount="indefinite" calcMode="spline"
+               keySplines="0.33 0 0.15 1;0 0 1 1;0.6 0 0.5 1"/>
+    </path>
+
+    <!-- points settle in behind the line as it passes -->
+    <g fill="#7EE787">
+      <circle cx="260" cy="42" r="3" opacity="0">
+        <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.14;0.20;0.90;1" dur="16s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="520" cy="38" r="3" opacity="0">
+        <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.24;0.30;0.90;1" dur="16s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="800" cy="24" r="3" opacity="0">
+        <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.33;0.39;0.90;1" dur="16s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="1060" cy="12" r="3" opacity="0">
+        <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.41;0.47;0.90;1" dur="16s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+
+    <text x="0" y="-6" class="m d" font-size="12" opacity="0">
+      rows/s
+      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.46;0.54;0.90;1" dur="16s" repeatCount="indefinite"/>
+    </text>
+  </g>
+
+  <!-- ── the cursor: a slow, soft breath ── -->
+  <rect x="34" y="298" width="10" height="18" fill="#39D353">
+    <animate attributeName="opacity" values="1;0.15;1" dur="2.4s" repeatCount="indefinite"
+             calcMode="spline" keyTimes="0;0.5;1" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
+  </rect>
 </svg>
