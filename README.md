@@ -44,16 +44,6 @@ actually worked — not a tutorial I followed.
 
 <br/>
 
-### GitHub stats
-
-<div align="center">
-
-<img src="https://streak-stats.demolab.com/?user=niranjan6030&hide_border=true&background=0D1420&ring=8496B0&fire=8496B0&currStreakLabel=8496B0&sideLabels=EDEFF3&currStreakNum=EDEFF3&sideNums=EDEFF3&dates=6C7A8C" />
-
-</div>
-
-<br/>
-
 <div align="center">
 
 📍 Bangalore, India
