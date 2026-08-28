@@ -31,7 +31,7 @@ displayed and the price charged cannot diverge.
 
 <sub>[schema.sql](https://github.com/niranjan6030/grezzo/blob/main/supabase/schema.sql) · [deploy.md](https://github.com/niranjan6030/grezzo/blob/main/DEPLOY.md)</sub>
 
-### [Carbon Ledger](https://github.com/niranjan6030/Carbon-Ledger) &nbsp;·&nbsp; [live dashboard](https://niranjan6030.github.io/Carbon-Ledger/carbon-ledger/app/index.html)
+### [Carbon Ledger](https://github.com/niranjan6030/Carbon-Ledger) &nbsp;·&nbsp; [live dashboard](https://carbon-ledger-orpin.vercel.app)
 `python` `pandas` `javascript`
 
 270 years of global CO₂ emissions, built around four questions — one of them the
@@ -41,7 +41,7 @@ substantially, which is exactly why both are shown.
 
 <sub>[analysis/](https://github.com/niranjan6030/Carbon-Ledger/tree/main/carbon-ledger/analysis)</sub>
 
-### [E-commerce Analytics](https://github.com/niranjan6030/ecommerce-dashboard)
+### [E-commerce Analytics](https://github.com/niranjan6030/ecommerce-dashboard) &nbsp;·&nbsp; [live](https://ecommerce-dashboard-zeta-livid.vercel.app)
 `next.js` `typescript` `recharts`
 
 Revenue plotted against customer acquisition on one timeline. Revenue rising
@@ -51,7 +51,7 @@ inspector showing the request behind every figure on screen.
 
 <sub>[analytics/route.ts](https://github.com/niranjan6030/ecommerce-dashboard/blob/main/app/api/analytics/route.ts)</sub>
 
-### [Hardware Inventory & Reorder Analytics](https://github.com/niranjan6030/hardware_inventory_supply_chain)
+### [Hardware Inventory & Reorder Analytics](https://github.com/niranjan6030/hardware_inventory_supply_chain) &nbsp;·&nbsp; [live](https://hardware-inventory-ten.vercel.app)
 `sql` `python` `pandas`
 
 A GPU and hardware supply chain modelled relationally. Multi-table joins and CTEs
@@ -60,16 +60,17 @@ reorder alerts before anything actually runs out.
 
 <sub>[inventory_analysis.sql](https://github.com/niranjan6030/hardware_inventory_supply_chain/blob/main/hardware_inventory_supply_chain/sql_queries/inventory_analysis.sql) · [inventory_report.py](https://github.com/niranjan6030/hardware_inventory_supply_chain/blob/main/hardware_inventory_supply_chain/python/inventory_report.py)</sub>
 
-### [VisionMetric Dashboard](https://github.com/niranjan6030/VisionMetric-Dashboard)
+### [VisionMetric Dashboard](https://github.com/niranjan6030/VisionMetric-Dashboard) &nbsp;·&nbsp; [live](https://visionmetric-gold.vercel.app)
 `opencv` `streamlit` `python` `numpy`
 
 Real-time video processing with the engine deliberately kept separate from the
 interface. FPS and per-frame inference latency are both recorded, so an
-optimisation can be *shown* to be faster rather than assumed to be.
+optimisation can be *shown* to be faster rather than assumed to be. The live
+version runs four operators in the browser and times each frame.
 
 <sub>[detector.py](https://github.com/niranjan6030/VisionMetric-Dashboard/blob/main/vision-metric-dashboard/detector.py) · [benchmark.py](https://github.com/niranjan6030/VisionMetric-Dashboard/blob/main/vision-metric-dashboard/benchmark.py)</sub>
 
-### [Food Delivery Analysis](https://github.com/niranjan6030/food-delivery-analysis)
+### [Food Delivery Analysis](https://github.com/niranjan6030/food-delivery-analysis) &nbsp;·&nbsp; [live](https://food-delivery-analysis-eta.vercel.app)
 `python` `pandas` `matplotlib`
 
 Delivery times and revenue from raw order logs, with duplicates and missing
