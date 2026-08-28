@@ -35,7 +35,7 @@ actually worked — not a tutorial I followed.
 
 | Project | What it does | Stack |
 |---|---|---|
-| 👖 [**grezzo**](https://github.com/niranjan6030/grezzo) | Menswear denim store built as a full system — stock tracked per colour, size *and* warehouse on an append-only ledger, checkout holds a timed reservation so an abandoned payment never loses a sale, payments across UPI / cards / netbanking / EMI / COD | Next.js · TypeScript · PostgreSQL · Firebase · Razorpay |
+| 👖 [**grezzo**](https://github.com/niranjan6030/grezzo) · [live ↗](https://grezzo-ruddy.vercel.app) | Menswear denim store built as a full system — stock tracked per colour, size *and* warehouse on an append-only ledger, checkout holds a timed reservation so an abandoned payment never loses a sale, payments across UPI / cards / netbanking / EMI / COD | Next.js · TypeScript · PostgreSQL · Firebase · Razorpay |
 | 🌍 [**Carbon-Ledger**](https://github.com/niranjan6030/Carbon-Ledger) | 270 years of global CO₂ emissions as an interactive dashboard — per-capita rankings, and which countries grew their economy while cutting emissions (UN SDG 13) | Python · pandas · JavaScript |
 | 📊 [**ecommerce-dashboard**](https://github.com/niranjan6030/ecommerce-dashboard) | Revenue plotted against customer acquisition on one timeline, with a query inspector that shows the request behind every number on screen | Next.js · TypeScript · Recharts |
 | 🔩 [**hardware_inventory_supply_chain**](https://github.com/niranjan6030/hardware_inventory_supply_chain) | GPU and hardware supply chain modelled relationally — multi-table joins and CTEs to surface stock shortages, plus a Python job that exports reorder alerts before anything runs out | SQL · Python · pandas |
