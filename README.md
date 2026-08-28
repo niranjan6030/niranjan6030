@@ -48,11 +48,6 @@ actually worked — not a tutorial I followed.
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=niranjan6030&show_icons=true&hide_border=true&bg_color=0D1420&title_color=8496B0&icon_color=8496B0&text_color=EDEFF3&ring_color=8496B0" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=niranjan6030&layout=compact&hide_border=true&bg_color=0D1420&title_color=8496B0&text_color=EDEFF3" />
-
-<br/><br/>
-
 <img src="https://streak-stats.demolab.com/?user=niranjan6030&hide_border=true&background=0D1420&ring=8496B0&fire=8496B0&currStreakLabel=8496B0&sideLabels=EDEFF3&currStreakNum=EDEFF3&sideNums=EDEFF3&dates=6C7A8C" />
 
 </div>
