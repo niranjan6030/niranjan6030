@@ -26,7 +26,7 @@ Everything below I built end to end and debugged until it worked.
 niranjan@github:~$ ls -la projects/
 ```
 
-<pre>drwxr-xr-x  <a href="https://github.com/niranjan6030/grezzo"><b>grezzo/</b></a>            next.js · typescript · postgres · razorpay</pre>
+<pre>drwxr-xr-x  <a href="https://github.com/niranjan6030/grezzo"><b>grezzo/</b></a>            next.js · postgres</pre>
 
 Menswear denim commerce platform. Stock is held per product, colour, size **and**
 warehouse on an append-only movement ledger. Checkout takes a fifteen-minute
@@ -36,7 +36,7 @@ displayed and the price charged cannot diverge.
 
 [live](https://grezzo-ruddy.vercel.app) · [schema.sql](https://github.com/niranjan6030/grezzo/blob/main/supabase/schema.sql) · [deploy.md](https://github.com/niranjan6030/grezzo/blob/main/DEPLOY.md)
 
-<pre>drwxr-xr-x  <a href="https://github.com/niranjan6030/Carbon-Ledger"><b>carbon-ledger/</b></a>     python · pandas · javascript</pre>
+<pre>drwxr-xr-x  <a href="https://github.com/niranjan6030/Carbon-Ledger"><b>carbon-ledger/</b></a>     python · pandas</pre>
 
 270 years of global CO₂ emissions, built around four questions — one of them the
 point of the whole thing: which countries grew an economy while cutting
@@ -45,7 +45,7 @@ substantially, which is exactly why both are shown.
 
 [live dashboard](https://niranjan6030.github.io/Carbon-Ledger/carbon-ledger/app/index.html) · [analysis/](https://github.com/niranjan6030/Carbon-Ledger/tree/main/carbon-ledger/analysis)
 
-<pre>drwxr-xr-x  <a href="https://github.com/niranjan6030/ecommerce-dashboard"><b>ecommerce-dashboard/</b></a>  next.js · typescript · recharts</pre>
+<pre>drwxr-xr-x  <a href="https://github.com/niranjan6030/ecommerce-dashboard"><b>ecommerce-dashboard/</b></a>  next.js · recharts</pre>
 
 Revenue plotted against customer acquisition on one timeline. Revenue rising
 while acquisition flattens means the existing base is spending more; the reverse
@@ -54,7 +54,7 @@ inspector showing the request behind every figure on screen.
 
 [live](https://ecommerce-dashboard-zeta-livid.vercel.app) · [analytics/route.ts](https://github.com/niranjan6030/ecommerce-dashboard/blob/main/app/api/analytics/route.ts)
 
-<pre>drwxr-xr-x  <a href="https://github.com/niranjan6030/hardware_inventory_supply_chain"><b>hardware-inventory/</b></a>   sql · python · pandas</pre>
+<pre>drwxr-xr-x  <a href="https://github.com/niranjan6030/hardware_inventory_supply_chain"><b>hardware-inventory/</b></a>   sql · python</pre>
 
 A GPU and hardware supply chain modelled relationally. Multi-table joins and CTEs
 surface stock shortages against supplier lead times, and a Python job exports
@@ -62,7 +62,7 @@ reorder alerts before anything actually runs out.
 
 [inventory_analysis.sql](https://github.com/niranjan6030/hardware_inventory_supply_chain/blob/main/hardware_inventory_supply_chain/sql_queries/inventory_analysis.sql) · [inventory_report.py](https://github.com/niranjan6030/hardware_inventory_supply_chain/blob/main/hardware_inventory_supply_chain/python/inventory_report.py)
 
-<pre>drwxr-xr-x  <a href="https://github.com/niranjan6030/VisionMetric-Dashboard"><b>vision-metric/</b></a>     opencv · streamlit · python</pre>
+<pre>drwxr-xr-x  <a href="https://github.com/niranjan6030/VisionMetric-Dashboard"><b>vision-metric/</b></a>     opencv · streamlit</pre>
 
 Real-time video processing with the engine deliberately kept separate from the
 interface. FPS and per-frame inference latency are both recorded, so an
@@ -70,7 +70,7 @@ optimisation can be *shown* to be faster rather than assumed to be.
 
 [detector.py](https://github.com/niranjan6030/VisionMetric-Dashboard/blob/main/vision-metric-dashboard/detector.py) · [benchmark.py](https://github.com/niranjan6030/VisionMetric-Dashboard/blob/main/vision-metric-dashboard/benchmark.py)
 
-<pre>drwxr-xr-x  <a href="https://github.com/niranjan6030/food-delivery-analysis"><b>food-delivery/</b></a>     python · pandas · matplotlib</pre>
+<pre>drwxr-xr-x  <a href="https://github.com/niranjan6030/food-delivery-analysis"><b>food-delivery/</b></a>     python · matplotlib</pre>
 
 Delivery times and revenue from raw order logs, with duplicates and missing
 values left in the source on purpose. Missing delivery times are imputed from
