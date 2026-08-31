@@ -41,15 +41,6 @@ substantially, which is exactly why both are shown.
 
 <sub>[analysis/](https://github.com/niranjan6030/Carbon-Ledger/tree/main/carbon-ledger/analysis)</sub>
 
-### [E-commerce Analytics](https://github.com/niranjan6030/ecommerce-dashboard) &nbsp;·&nbsp; [live](https://ecommerce-dashboard-zeta-livid.vercel.app)
-`next.js` `typescript` `recharts`
-
-Revenue plotted against customer acquisition on one timeline. Revenue rising
-while acquisition flattens means the existing base is spending more; the reverse
-means growth is being bought — plotting them apart hides that. Includes a query
-inspector showing the request behind every figure on screen.
-
-<sub>[analytics/route.ts](https://github.com/niranjan6030/ecommerce-dashboard/blob/main/app/api/analytics/route.ts)</sub>
 
 ### [Hardware Inventory & Reorder Analytics](https://github.com/niranjan6030/hardware_inventory_supply_chain) &nbsp;·&nbsp; [live](https://hardware-inventory-ten.vercel.app)
 `sql` `python` `pandas`
@@ -70,15 +61,6 @@ version runs four operators in the browser and times each frame.
 
 <sub>[detector.py](https://github.com/niranjan6030/VisionMetric-Dashboard/blob/main/vision-metric-dashboard/detector.py) · [benchmark.py](https://github.com/niranjan6030/VisionMetric-Dashboard/blob/main/vision-metric-dashboard/benchmark.py)</sub>
 
-### [Food Delivery Analysis](https://github.com/niranjan6030/food-delivery-analysis) &nbsp;·&nbsp; [live](https://food-delivery-analysis-eta.vercel.app)
-`python` `pandas` `matplotlib`
-
-Delivery times and revenue from raw order logs, with duplicates and missing
-values left in the source on purpose. Missing delivery times are imputed from
-city medians rather than a global one, because a slow city is slow for reasons
-that do not generalise.
-
-<sub>[analysis.py](https://github.com/niranjan6030/food-delivery-analysis/blob/main/food_delivery_analysis/analysis.py) · [generate_data.py](https://github.com/niranjan6030/food-delivery-analysis/blob/main/food_delivery_analysis/generate_data.py)</sub>
 
 <br/>
 
