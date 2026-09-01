@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 340" width="1200" height="340" role="img" aria-label="Niranjan S — full-stack engineering and data analysis">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 340" width="1200" height="340" role="img" aria-label="Niranjan S — data analysis and full-stack engineering">
   <defs>
     <linearGradient id="warm" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0%" stop-color="#E8A33D"/><stop offset="100%" stop-color="#C9603F"/>
@@ -203,6 +203,6 @@
   <line x1="40" y1="300" x2="1160" y2="300" stroke="#E8A33D" stroke-opacity="0.35"/>
 
   <text x="40" y="98" class="s" font-size="52" font-weight="300" letter-spacing="13" fill="#E8DCC8">NIRANJAN S</text>
-  <text x="44" y="132" class="m" font-size="14.5" letter-spacing="3.6" fill="#E8A33D">FULL-STACK ENGINEERING  ·  DATA ANALYSIS</text>
-  <text x="44" y="158" class="m" font-size="13" letter-spacing="2.2" fill="#8A7E6B">typescript · python · sql · next.js · postgres · pandas · pytorch</text>
+  <text x="44" y="132" class="m" font-size="14.5" letter-spacing="3.6" fill="#E8A33D">DATA ANALYSIS  ·  FULL-STACK ENGINEERING</text>
+  <text x="44" y="158" class="m" font-size="13" letter-spacing="2.2" fill="#8A7E6B">python · sql · pandas · power bi · tableau · next.js · postgres</text>
 </svg>
